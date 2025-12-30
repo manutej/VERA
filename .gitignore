@@ -1,0 +1,40 @@
+# Binaries
+/bin/
+/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.test
+coverage.out
+coverage.html
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env
+
+# Build
+/vendor/
+go.sum.bak
+
+# Logs
+*.log
+logs/
+
+# Temp
+tmp/
+temp/
